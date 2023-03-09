@@ -12,6 +12,7 @@ def sort(container: Sequence[int]) -> Sequence[int]:
     :param container: Массив, который надо отсортировать
     :return: Отсортированный в порядке возрастания массив
     """
+
     if not container:
         return container
     max_value = max(container)
