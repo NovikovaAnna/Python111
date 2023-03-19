@@ -13,7 +13,6 @@ def sort(container: Sequence[int]) -> Sequence[int]:
     :param container: Массив, который надо отсортировать
     :return: Отсортированный в порядке возрастания массив
     """
-
     n = len(container)
     for i in range(n):
         for j in range(0, n - i - 1):
